@@ -66,7 +66,7 @@ The download, among other things, contains the contact deformation datasets of *
   
 In the visualizations, the baseline $\textcolor{green}{\text{reduced deformations}}$ are shown in green, the simulated ground truth $\textcolor{orange}{\text{full deformations}}$ are shown in orange, and the resulting $\textcolor{red}{\text{ model deformations}}$ are shown in red. Using the GUI you can show or hide the different deformation meshes, and explore the different dataset samples. 
 
-<video src=""></video>
+<video src="https://github.com/crisrom002/collider-descriptors-deformation-learning/assets/95915312/9508cf47-2ad8-4341-9721-6f4168f59f38"></video>
 
 We are using [Polyscope](https://polyscope.run/py/) for all the interactive visualizations. If you need similar functionality for your projects, don't hesitate to take a look at this extraordinary library!
 
@@ -100,7 +100,7 @@ python evaluate.py visualize --contact_problem jelly3D_thingi3D \
 
 Using the GUI, the deformation results of different model checkpoints can be evaluated and compared. To show model evaluation results, activate the ```show model``` checkbox. To change the evaluated checkpoint, play with the ```model checkpoint``` slider.
 
-<video src=""></video>
+<video src="https://github.com/crisrom002/collider-descriptors-deformation-learning/assets/95915312/41c7f45f-41ea-40bf-afba-daaceb29e4e0"></video>
   
 ### Numeric log
 
@@ -127,7 +127,7 @@ python evaluate.py visualize --contact_problem jelly3D_sphereSpiky3D \
 
 The resulting jelly deformations can be compared with the ground truth deformations, for any sample of the interaction. Optionally, the **descriptor values can be precomputed** with the flag ```--precompute_descriptor```, accelerating the runtime model evaluation as described in the paper (Sec 4.1).
 
-<video src=""></video>
+<video src="https://github.com/crisrom002/collider-descriptors-deformation-learning/assets/95915312/897d0173-680c-4514-b0b3-8ad07186a384"></video>
   
 ### Recording
 
@@ -185,9 +185,9 @@ Same as with still images, we can generate the video corresponding to each of th
 
 <table>
   <tr>
-    <td><video src="" width=320></td>
-    <td><video src="" width=320></td>
-    <td><video src="" width=320></td>
+    <td><video src="https://github.com/crisrom002/collider-descriptors-deformation-learning/assets/95915312/73198521-bde5-42dc-a27b-80add6d67a4a" width=320></td>
+    <td><video src="https://github.com/crisrom002/collider-descriptors-deformation-learning/assets/95915312/93967cff-c507-4302-a5ca-46c81a6eb034" width=320></td>
+    <td><video src="https://github.com/crisrom002/collider-descriptors-deformation-learning/assets/95915312/44478367-44b4-4c9f-9acf-ca8f32305381" width=320></td>
   </tr>
 </table>
 
