@@ -79,7 +79,7 @@ Using the ```jelly3D_thingi3D``` dataset, and providing a path with the desired 
 ```
 python train.py --contact_problem jelly3D_thingi3D \
                 --log_path logs/log_jelly3D_thingi3D \
-                --num_workers 4
+                --num_workers 4 \
                 --learning_rate 1e-3 \
                 --epochs 100 \
                 --epochs_per_test 1 \
