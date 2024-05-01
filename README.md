@@ -39,6 +39,8 @@ Finally, install the remaining Python dependencies:
 ```
 python -m pip install -r requirements.txt
 ```
+The default ```bpy``` dependency may require a specific Python version. In that case, you need to change to compatible bpy / Python versions to complete successfully.
+
 At this point, the Python environment is ready to run all the training and visualization scripts. Now we need some data to work with.
 
 ## Datasets
